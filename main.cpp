@@ -213,7 +213,7 @@ void find_worth_line() {
 
 }
 
-/*Вычисляем таблицу*/
+/*Вычисляем таблицуs*/
 bool evaluate_table() {
 
     check_base();
