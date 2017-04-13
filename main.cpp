@@ -213,7 +213,7 @@ void find_worth_line() {
 
 }
 
-/*Вычисляем таблицуs*/
+/*Вычисляем таблицу*/
 bool evaluate_table() {
 
     check_base();
@@ -256,6 +256,8 @@ bool evaluate_table() {
 int main() {
 
     freopen("input", "r", stdin);
+    
+    freopen("output", "w", stdout);
 
     cin >> L >> n;
     for (int i = 0; i < n; i++) {
